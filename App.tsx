@@ -1,4 +1,16 @@
 import { StyleSheet } from 'react-native';
+// Data is a variable that contains an array of objects
+// Here's the type of the objects:
+// type DataItem = {
+//   /** Unique ID */
+//   id: string;
+//   /** Title of the item, usually a couple of words long */
+//   title: string;
+//   /** Subtitle, description, summary, which is made up of multiple sentences */
+//   subtitle: string;
+//   /** The URI of the image */
+//   imageUri: string;
+// };
 import data from './data';
 
 export default function App() {
